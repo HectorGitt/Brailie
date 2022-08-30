@@ -64,7 +64,6 @@
   flex-direction: column;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
   z-index: 3;
@@ -124,26 +123,6 @@
 .image {
   text-shadow: 0px 0px 100px #17A600;
 }
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-
-
 .logo {
   display: flex;
   align-items: flex-end;
@@ -151,7 +130,6 @@
   font-weight: 500;
   font-size: 1.7rem;
 }
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -159,15 +137,3 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
-}
