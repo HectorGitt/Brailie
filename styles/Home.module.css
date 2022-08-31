@@ -10,12 +10,16 @@
   align-items: center;
   
 }
+.main > div {
+  width: 90%;
+  max-width: 35rem;
+}
 .bracket {
   color: #17A600;
   font-size: 2rem;
 }
 .header {
-  background-color: #d1d1d12c;
+  background-color: #242424;
 }
 .nav {
   display: flex;
@@ -126,14 +130,23 @@
 .logo {
   display: flex;
   align-items: flex-end;
-  font-family:cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 500;
   font-size: 1.7rem;
 }
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .nav {
+    padding: 1rem 1rem;
+  }
+  .footer {
+    padding: 0 2rem;
+    text-align: center;
+  }
+  .copy {
+    flex-direction: column-reverse;
+  }
+  .line {
+    width: 80vw;
   }
 }
 
