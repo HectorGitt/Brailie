@@ -8,6 +8,9 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Brailie</title>
+      </Head>
       <header className={styles.header}>
         <nav className={styles.nav}>
             <div className={styles.logo}> <span className={styles.bracket} >&#91;</span> brailie <span className={styles.bracket} >&#93;</span> </div>
